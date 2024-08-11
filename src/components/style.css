@@ -1,0 +1,11 @@
+.hero{
+    background-image: url("../assets/hero_back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background: rgb(2,6,23);
+background: linear-gradient(180deg, rgba(2,6,23,1) 30%, rgba(0,212,255,0) 100%);
+}
