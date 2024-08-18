@@ -1,11 +1,12 @@
 import React from "react";
 import Hero from "../components/hero";
+import Section from "../components/Section";
 
 function Home() {
   return (
     <>
       <Hero />
-      <div className=" min-h-screen"></div>
+      <Section />
     </>
   );
 }

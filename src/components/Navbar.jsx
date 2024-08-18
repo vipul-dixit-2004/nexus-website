@@ -4,12 +4,9 @@ import { Link } from "react-router-dom";
 import "./style.css";
 function Navbar() {
   return (
-    <div className="w-full h-20 navbar flex items-center justify-evenly">
-      <div className="logo">
-        <img className="w-40" src={logo} alt="" />
-      </div>
+    <div className="w-full h-20 navbar z-50 flex items-center justify-evenly">
       <div className=" flex ">
-        <ul className="flex space-x-4 font-caesar text-2xl">
+        <ul className="md:flex  md:text-3xl sm:flex sm:text-xl space-x-4 font-caesar  hiddenn">
           <li>
             <Link
               to="/about"
@@ -34,6 +31,13 @@ function Navbar() {
               Events
             </Link>
           </li>
+        </ul>
+      </div>
+      <div className="logo">
+        <img className="w-40" src={logo} alt="" />
+      </div>
+      <div className=" flex ">
+        <ul className="md:flex  md:text-3xl sm:flex sm:text-xl space-x-4 font-caesar  hidden">
           <li>
             <Link
               to="/accommodation"

@@ -1,11 +1,22 @@
 .hero{
+    background-image: url("../assets/heroback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.s2{
     background-image: url("../assets/hero_back.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+.cloudContainer{
+    height: 90vh;
+
+}
+
 
 .navbar{
     background: rgb(2,6,23);
-background: linear-gradient(180deg, rgba(2,6,23,1) 30%, rgba(0,212,255,0) 100%);
+background: linear-gradient(180deg, rgb(71, 35, 17) 30%, rgba(6, 147, 138, 0) 100%);
 }
